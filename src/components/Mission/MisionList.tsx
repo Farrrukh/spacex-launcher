@@ -8,6 +8,7 @@ interface Props{
 const MisionList:React.FC<Props> = ({data}) => {
     return (
         <div>
+            <h1>Missions</h1>
             <ul>
             {data.launches?.map((launchObj,index)=>{
                 // eslint-disable-next-line @typescript-eslint/no-unused-expressions
